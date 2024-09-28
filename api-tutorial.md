@@ -26,10 +26,6 @@ DB_DATABASE=api
 DB_USERNAME=root
 DB_PASSWORD=root
 ```
-composer require laravel/breeze --dev
-
-php artisan breeze:install api
-
 ## Create the CRUD customers to API
 ```bash
 php artisan crud:api Customers --fields='name#string; email#string' --controller-namespace=Api
